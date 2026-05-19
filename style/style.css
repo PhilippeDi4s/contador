@@ -1,0 +1,22 @@
+main {
+  max-width: 100rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contador_wrapper {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contador_btn{
+    padding: 1rem;
+}
