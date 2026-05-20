@@ -1,0 +1,11 @@
+:root {
+  --background-color: white;
+  --text-color: rgb(0, 0, 0);
+  
+  --button-background-color: rgb(95, 93, 93);
+}
+
+:root[data-theme="dark"] {
+  --background-color: #0a0c10;
+  --text-color: rgb(189, 189, 189);
+}
