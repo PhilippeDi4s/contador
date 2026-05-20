@@ -1,3 +1,7 @@
+body {
+  background-color: var(--background-color);
+}
+
 main {
   max-width: 100rem;
 }
@@ -8,6 +12,17 @@ section {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  color: var(--text-color);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  button {
+    padding: 0.5 rem;
+  }
 }
 
 .contador_wrapper {
@@ -17,6 +32,7 @@ section {
   align-items: center;
 }
 
-.contador_btn{
-    padding: 1rem;
+.contador_btn {
+  padding: 1rem;
+  background-color: var(--button-background-color);
 }
